@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>teslacam-browser</Name>
+  <Repository>theshulk/teslacam-browser</Repository>
+  <Registry>https://hub.docker.com/repository/docker/theshulk/teslacam-browser/general</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/BobStrogg/teslacam-browser</Project>
+  <Overview/>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:8088]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://evbite.com/wp-content/uploads/2021/04/Tesla-Dashcam-Saved-Icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1678486553</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="AppData Path" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/teslacam-browser</Config>
+  <Config Name="Tesla Cam Path" Target="/media/TeslaCam" Default="" Mode="rw" Description="The path to your Tesla Cam clips" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Host Port" Target="8088" Default="8088" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8088</Config>
+</Container>
