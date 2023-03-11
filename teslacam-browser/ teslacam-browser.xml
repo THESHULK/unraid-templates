@@ -9,7 +9,11 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/BobStrogg/teslacam-browser</Project>
-  <Overview/>
+  <Overview>A Docker version of BobStrogg's TeslaCam Browser.&#xD;
+&#xD;
+Simply add the path to your TeslaCam videos and access the WebUI.&#xD;
+&#xD;
+GitHub repository located at https://github.com/BobStrogg/teslacam-browser</Overview>
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:8088]/</WebUI>
   <TemplateURL/>
@@ -17,7 +21,7 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1678486553</DateInstalled>
+  <DateInstalled>1678553095</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
